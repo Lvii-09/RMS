@@ -1,0 +1,53 @@
+scp -i /Users/satyashivam/Downloads/Satya-key.pem /Users/satyashivam/Downloads/RMS/build/libs/RMS-0.0.1-SNAPSHOT.jar ec2-user@51.20.67.103:satya
+
+username@ec2-instance-ip:/path/on/ec2/
+
+
+/path/to/local/file.jar username@ec2-instance-ip:/path/on/ec2/
+
+
+ssh -i /Users/satyashivam/Downloads/Satya-key.pem ec2-user@51.20.67.103 "sudo chmod o+w /satya"
+
+
+
+curl --location ‘localhost:8080/info/cattle' \
+--header 'Content-Type: application/json' \
+--header 'X-User-Id: 999401cd-c713-45db-80cf-ae57910f67ef' \
+--data '{
+    "user_id": "5",
+    "tag_id": "5",
+    "species": "Cattle",
+    "deworming": "true",
+    "days_in_milk":"2"
+}'
+
+ssh -i /Users/satyashivam/Downloads/Satya-key.pem ec2-user@51.20.67.103
+
+First copy your one-time code: 12AE-39DC
+
+
+nohup java -jar RMS-0.0.1-SNAPSHOT.jar  > application.log &
+
+
+
+http://51.20.67.103/login.html
+
+https://github.com/Lvii-09/Krishak-FE.git
+
+cp /path/to/source/* /path/to/destination/
+
+/home/ec2-user/‘Frontend-Krishak’/‘API integration’
+
+cp /home/ec2-user/'Frontend-Krishak'/'API integration'/* /var/www/html
+
+cp /home/ec2-user/Krishak-FE/Krishak Agro Website/API integration /var/www/html
+
+chmod 600 /var/www/html
+
+
+
+Frontend Deployment
+
+sudo yum update -y
+sudo yum install httpd -y
+sudo service httpd start
